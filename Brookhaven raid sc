@@ -1,0 +1,116 @@
+-- Moveable Work At Moblie/PC 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "INDOCOREHATER HUB(RaidScript)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "Hello",
+	Content = "Made By ExploitEdge",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+local Tab = Window:MakeTab({
+	Name = "Brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("Shout Out To ExploitEdge For Making This Script and Hub")
+local Section = Tab:AddSection({
+	Name = "Something"
+})
+Tab:AddButton({
+	Name = "Board Changer",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Arfimuria/Board-Changer-for-raid-Brookhaven-/main/Board%20changer%20Brookhaven%20for%20raid"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Name And Bio Changer",
+	Callback = function()
+      		Loadstring(game:HttpGet("https://raw.githubusercontent.com/Arfimuria/Brookhaven-Change-name-and-bio/main/Name%20and%20bio%20changer"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the section.
+]]
+local Section = Tab:AddSection({
+	Name = "OTHER HUB"
+})
+
+Tab:AddButton({
+	Name = "R4D GUI",
+	Callback = function()
+      		--Brookhaven R4D 
+--By M1zz
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "JUL HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "REDZ HUB",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+Tab:AddButton({
+	Name = "IMPERIAL HUB",
+	Callback = function()      		
+              loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Trevor4 Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Trev0rZ/Loader/main/Trevo4Hub%20Working.lua'),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Salzar Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/err0r129/SalazarHubByTeamOsiris/main/Hades.lua'))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
